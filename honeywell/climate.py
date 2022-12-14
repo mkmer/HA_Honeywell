@@ -71,7 +71,7 @@ HW_FAN_MODE_TO_HA = {
 }
 
 PARALLEL_UPDATES = 1
-SCAN_INTERVAL = datetime.timedelta(seconds=10)
+SCAN_INTERVAL = datetime.timedelta(seconds=15)
 
 async def async_setup_entry(
     hass: HomeAssistant, entry: ConfigEntry, async_add_entities: AddEntitiesCallback
