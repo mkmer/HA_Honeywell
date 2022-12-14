@@ -3,7 +3,7 @@
   "name": "Honeywell Total Connect Comfort (US)",
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/honeywell",
-  "requirements": ["git+https://github.com/mkmer/somecomfort.git@Improve-polling#somecomfort==0.9.0"],
+  "requirements": ["somecomfort @ git+https://github.com/mkmer/somecomfort.git@Improve-polling"],
   "codeowners": ["@rdfurman"],
   "iot_class": "cloud_polling",
   "loggers": ["somecomfort"],
